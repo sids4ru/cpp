@@ -1,3 +1,6 @@
+//Author: Siddharth Bagai
+//Email: sids4ru@gmail.com
+
 #include<iostream>
 #include <vector>
 #include <string>
