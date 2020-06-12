@@ -19,11 +19,13 @@ private:
 	std::string name, next, event;
 	bool visible;
 public:
-	state(std::string name, std::string next, std::string event, bool visible = true) :name(name), next(next), event(event), visible(visible) {};
-	std::string getName() { return name; }
-	std::string getNext() { return next; }
-	std::string getEvent() { return event; }
-	bool isVisible() { return visible; }
+	state(std::string name, std::string next, std::string event, bool visible = true) 
+		:name(name), next(next), event(event), visible(visible) {};
+	
+		std::string getName() { return name; }
+		std::string getNext() { return next; }
+		std::string getEvent() { return event; }
+		bool isVisible() { return visible; }
 
 };
 /*
